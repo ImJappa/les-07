@@ -1,0 +1,205 @@
+
+
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+header {
+    background: white;
+}
+
+nav {
+font-family: sans-serif;
+    float: left;
+}
+
+nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+
+  nav a:hover {
+    color: #000;
+  }
+  
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #444;
+  
+    position: absolute;
+    top: 0;
+    width: 0%;
+  
+    transition: all ease-in-out 250ms;
+  }
+
+.zelf {
+    width: 600px;
+    height: 600px;
+    left: 700px;
+    top: 330px;    
+    object-fit: contain;
+    position: absolute;
+    transform: rotate(90deg);
+    opacity: 0.9;
+}
+
+ /* .zelf2 {
+    width: 500px;
+    height: 500px;
+    top: 1050px;    
+    left: 0px;
+    object-fit: contain;
+    position: absolute;
+} */
+
+.zelf3 {
+    width: 500px;
+    height: 500px;
+    top: 1050px;    
+    left: 150px;
+    object-fit: contain;
+    position: absolute;
+    transform: rotate(90deg);
+    opacity: 0.8;
+}
+
+
+
+.school {
+    position: absolute;
+    width: 50%;
+    left: 1000px;
+    top: 1000px;
+    opacity: 0.8;
+}
+
+h1 {
+position: absolute;
+width: 670px;
+height: 61px;
+left: 400px;
+top: 100px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+color:  #1a1a1a;
+}
+
+#titel1 {
+    position: absolute;
+    width: 506px;
+    height: 39px;
+    left: 700px;
+    top: 1000px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 77px;
+    text-align: left;
+    
+    color: #4b371c; 
+}
+
+#titel2 {
+    position: absolute;
+    width: 506px;
+    height: 39px;
+    left: 215px;
+    top: 1600px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 77px;
+    text-align: left;
+    
+    color: #4b371c; 
+}
+#over {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: left;
+    position: absolute;
+    width: 506px;
+    height: 39px;
+    left: 200px;
+    top: 300px;
+
+}
+
+#geleerd {
+position: absolute;
+width: 506px;
+height: 39px;
+left: 700px;
+top: 1100px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 29px;
+text-align: left;
+
+color: #000000;
+}
+
+#actiepunten {
+position: absolute;
+width: 506px;
+height: 39px;
+left: 215px;
+top: 1700px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 29px;
+text-align: left;
+
+color: #000000;
+}
+
+footer {
+    font-family: Inter; 
+    background:#000000;
+    margin-top:2400px;
+    color: white;
+    padding: 2em;
+    position: relative;
+    clear: both;
+    opacity: 0.9;
+}
